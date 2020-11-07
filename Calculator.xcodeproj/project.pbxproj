@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D71B295A25562558000299C2 /* AnimationButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71B295925562558000299C2 /* AnimationButtonExtension.swift */; };
 		D7E97066255493A500E0F0EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E97065255493A500E0F0EF /* AppDelegate.swift */; };
 		D7E97068255493A500E0F0EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E97067255493A500E0F0EF /* SceneDelegate.swift */; };
 		D7E9706A255493A500E0F0EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E97069255493A500E0F0EF /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D71B295925562558000299C2 /* AnimationButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationButtonExtension.swift; sourceTree = "<group>"; };
 		D7E97062255493A500E0F0EF /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7E97065255493A500E0F0EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7E97067255493A500E0F0EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				D7E9706E255493A600E0F0EF /* Assets.xcassets */,
 				D7E97070255493A600E0F0EF /* LaunchScreen.storyboard */,
 				D7E97073255493A600E0F0EF /* Info.plist */,
+				D71B295925562558000299C2 /* AnimationButtonExtension.swift */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				D7E9706A255493A500E0F0EF /* ViewController.swift in Sources */,
 				D7E97066255493A500E0F0EF /* AppDelegate.swift in Sources */,
+				D71B295A25562558000299C2 /* AnimationButtonExtension.swift in Sources */,
 				D7E97068255493A500E0F0EF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
