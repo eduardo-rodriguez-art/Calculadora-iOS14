@@ -342,7 +342,7 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="50" translatesAutoresizingMaskIntoConstraints="NO" id="aHq-HI-IeG">
-                                <rect key="frame" x="20" y="210" width="374" height="119.5"/>
+                                <rect key="frame" x="20" y="104" width="374" height="225.5"/>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="100"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -351,8 +351,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="labelColor"/>
                         <constraints>
-                            <constraint firstItem="2Eo-k3-KNh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="6QY-hg-ZP0"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2Eo-k3-KNh" secondAttribute="trailing" constant="20" id="GxZ-Th-4sI"/>
+                            <constraint firstItem="2Eo-k3-KNh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" priority="900" constant="20" id="6QY-hg-ZP0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2Eo-k3-KNh" secondAttribute="trailing" priority="900" constant="20" id="GxZ-Th-4sI"/>
+                            <constraint firstItem="aHq-HI-IeG" firstAttribute="top" relation="lessThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="HEQ-uB-NTH"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="2Eo-k3-KNh" secondAttribute="bottom" constant="20" id="KOb-NI-g3A"/>
                             <constraint firstItem="2Eo-k3-KNh" firstAttribute="top" secondItem="aHq-HI-IeG" secondAttribute="bottom" constant="40" id="T9L-AB-aTC"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aHq-HI-IeG" secondAttribute="trailing" constant="20" id="V0f-OD-WIU"/>
