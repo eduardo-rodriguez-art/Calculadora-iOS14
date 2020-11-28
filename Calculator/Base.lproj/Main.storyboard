@@ -71,7 +71,7 @@
                                                     <constraint firstAttribute="width" secondItem="1zN-R4-YsX" secondAttribute="height" multiplier="1:1" id="S1H-lI-hHz"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                                <state key="normal" title="/">
+                                                <state key="normal" title="÷">
                                                     <color key="titleColor" systemColor="labelColor"/>
                                                 </state>
                                                 <connections>

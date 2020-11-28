@@ -5,7 +5,6 @@
 //  Created by José Eduardo Rodríguez Reyes on 05/11/20.
 //
 import UIKit
-
 class ViewController: UIViewController {
 
 //    OUTLETS
@@ -95,7 +94,8 @@ class ViewController: UIViewController {
     }()
     
 //    FORMATEO DE VALORES POR PANTALLA POR DEFECTO
-    private let printFormatter: NumberFormatter = {
+    
+private let printFormatter: NumberFormatter = {
         let formatter = NumberFormatter()
         let locale = Locale.current
         formatter.groupingSeparator = locale.groupingSeparator
@@ -132,7 +132,7 @@ class ViewController: UIViewController {
         operatorMultiplication.round()
         operatorDivision.round()
         
-        numberDecimal.setTitle(kDecimalSeparator, for: .normal)
+    numberDecimal.setTitle(kDecimalSeparator, for: .normal)
         total = UserDefaults.standard.double(forKey: kTotal)
         
         result() //para que se vea por pantalla
@@ -222,6 +222,7 @@ class ViewController: UIViewController {
         var currentTemp = auxTotalFormatter.string(from: NSNumber(value: temp))
         if !operating && currentTemp!.count >= kMaxLength { //que se paso del limite de decimales respetados
             return
+                
         }
         
         currentTemp = auxFormatter.string(from: NSNumber(value: temp))!
